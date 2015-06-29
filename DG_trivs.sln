@@ -8,20 +8,20 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DG_Trivsel", "http://localh
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_50836"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\DG_Trivsel\"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Visual Studio 2013\WebSites\DG_Trivsel\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50836\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_50836"
-		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\DG_Trivsel\"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Visual Studio 2013\WebSites\DG_Trivsel\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50836\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\WebSites\DG_Trivsel\"
+		SlnRelativePath = "..\..\Visual Studio 2013\WebSites\DG_Trivsel\"
 	EndProjectSection
 EndProject
 Global
