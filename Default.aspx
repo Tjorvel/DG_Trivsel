@@ -6,23 +6,25 @@
 <head runat="server">
     <title>Trivselförslag</title>
     <%--JavaScript--%>
+    <script src="assets/javascript/jquery/jquery.1.11.2.js"></script>
     <script src="assets/javascript/main.js"></script>
     <%--CSS--%>
     <link rel="stylesheet" href="assets/css/main.css"/>
     <link rel="stylesheet" href="assets/css/normalize.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic' rel='stylesheet' type='text/css'/>
 </head>
 <body>
     <div id="content_wrapper">
         <div id="header_wrapper">
             <h1>Trivselförslag</h1>
-            <h3>Här kan ni ge förslag på vad som kan förbättras</h3>
         </div>
         <div id="wrapper">
+            <div id="pre_wrapper"></div>
             <ul>
-                <li><h4>Namn (valfritt): </h4></li>
-                <li><input type="text" id="input_name"/></li>
-                <li><h4>Förslag: </h4></li>
-                <li><textarea id="input_suggest"></textarea></li>
+                <li><h3>Här kan ni ge förslag på vad som kan förbättras!</h3></li>
+                <li><input type="text" id="input_name" placeholder="Namn (valfritt):"/></li>
+                <li><textarea id="input_suggest" placeholder="Förslag:"></textarea></li>
+                <li><input id="button_send" type="submit" value="skicka" class="button" onclick="" /></li>
             </ul>                
         </div>
         <div id="footer_wrapper"></div>
