@@ -23,7 +23,7 @@
             <ul>
                 <li><input type="text" id="input_name" placeholder="Namn (valfritt):"/></li>
                 <li><textarea id="input_suggest" placeholder="Förslag:"></textarea></li>
-                <li><input id="button_send" type="submit" value="skicka" class="button" onclick="Main.sendEmail()" /></li>
+                <li><input id="button_send" type="submit" value="skicka" class="button" onclick="Main.sendEmail()" /><div id="loading"></div><input id="label" type="text" readonly="readonly"/></li>
             </ul>                
         </div>
         <div id="footer_wrapper"></div>
