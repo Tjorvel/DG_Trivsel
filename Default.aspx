@@ -19,12 +19,11 @@
             <h1>Trivselförslag</h1>
         </div>
         <div id="wrapper">
-            <div id="pre_wrapper"></div>
+            <div id="pre_wrapper"><h3>Här kan ni ge förslag på vad som kan förbättras!</h3></div>
             <ul>
-                <li><h3>Här kan ni ge förslag på vad som kan förbättras!</h3></li>
                 <li><input type="text" id="input_name" placeholder="Namn (valfritt):"/></li>
                 <li><textarea id="input_suggest" placeholder="Förslag:"></textarea></li>
-                <li><input id="button_send" type="submit" value="skicka" class="button" onclick="" /></li>
+                <li><input id="button_send" type="submit" value="skicka" class="button" onclick="Main.sendEmail()" /></li>
             </ul>                
         </div>
         <div id="footer_wrapper"></div>

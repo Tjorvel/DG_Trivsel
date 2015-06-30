@@ -47,7 +47,7 @@ ul
 }
 #input_name
 {
-    margin-top: 40px;
+    margin-top: 75px;
     margin-bottom: 40px;
     color: black;   
     padding: 2%;
@@ -71,11 +71,11 @@ ul
 #pre_wrapper
 {
     position: absolute;
-    width: 200px;
-    height: 30px;
+    width: 500px;
+    height: 60px;
     left: 50%;
-    margin-left: -100px;
-    margin-top: -30px;
+    margin-left: -250px;
+    margin-top: -39px;
     background-color: #282b34;
 }
 #pre_wrapper:before
@@ -84,7 +84,7 @@ ul
     position:absolute;
     width:30px;
     height:30px;
-    top: 30px;
+    top: 39px;
     left: -30px;
     background: linear-gradient(225deg, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 30%);
 }
@@ -94,17 +94,20 @@ ul
     position:absolute;
     width:30px;
     height:30px;
-    top: 30px;    
+    top: 39px;    
     right: -30px;
     background: linear-gradient(135deg, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 30%);
 }
 #wrapper h3
 {
-    padding-top: 49px;
+    /* padding-top: 49px; */
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 22px;
-    margin-top: 0;
+    margin: 0;
+    text-align: center;
+    /* line-height: 45px; */
+    margin-top: 10px;
 }
 .button
 {
