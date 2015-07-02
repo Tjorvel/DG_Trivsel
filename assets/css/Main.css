@@ -137,6 +137,7 @@ ul
     font-weight: 600;
     vertical-align: top;
     margin-right: 15px;
+    background-color: #f3f3f3;
 }
 .button:hover
 {
@@ -167,7 +168,7 @@ ul
 }
 #loading
 {
-    background-image:url("../../img/loading.gif");
+    background-image:url("../../img/loading5.gif");
     width: 44px;
     height: 44px;
     display: inline-block;
@@ -192,6 +193,18 @@ ul
 #input_suggest:focus
 {
     background-color:white;
+}
+.dg_picture
+{
+    background-image: url("../../img/dreamgroup.png");
+    display: inline-block;
+    height: 45px;
+    width: 230px;
+    background-size: 230px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
 }
 @media (max-width:700px)
 {
