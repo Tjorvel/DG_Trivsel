@@ -1,5 +1,9 @@
 ﻿var Main = new function()
 {
+    this.OnLoad = function()
+    {
+        $('#content_wrapper').on('touchmove', false);
+    }
     this.sendEmail = function()
     {
         var input_name = $('#input_name').val();
@@ -27,7 +31,10 @@
                             $("#input_suggest").prop('readonly', false).val("");
                             $("#button_send").prop('disabled', false);
                             $("#loading").css('visibility', 'hidden');
-                            $("#label").val("Skickat");
+                            $("#label").val("Levererat!");
+                            setTimeout(function () {
+                                $("#label").val("");
+                            }, 7000);
                         }
                         
                     }
@@ -37,7 +44,12 @@
         }
         else
         {
+            $("#label").val("Måste ange ett förslag");
+            setTimeout(function () {
+                $("#label").val("");
+            }, 7000);
             return false;   
         }
     }
 }
+$(document).ready(Main.OnLoad);

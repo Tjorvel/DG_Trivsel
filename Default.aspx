@@ -10,6 +10,7 @@
     <script src="assets/javascript/main.js"></script>
     <%--CSS--%>
     <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/StyleSheet.css"/>
     <link rel="stylesheet" href="assets/css/normalize.css"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic' rel='stylesheet' type='text/css'/>
 </head>
@@ -19,7 +20,7 @@
             <h1>Trivselförslag</h1>
         </div>
         <div id="wrapper">
-            <div id="pre_wrapper"><h3>Här kan ni ge förslag på vad som kan förbättras!</h3></div>
+            <div id="pre_wrapper"><h3>Ge förslag på vad som kan förbättras!</h3></div>
             <ul>
                 <li><input type="text" id="input_name" placeholder="Namn (valfritt):"/></li>
                 <li><textarea id="input_suggest" placeholder="Förslag:"></textarea></li>
